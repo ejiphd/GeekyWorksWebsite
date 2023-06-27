@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans&family=Poppins:wght@100;200&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+@media screen and (min-width:1025px) {
+    /* navigation */
+    #logo-link{
+        font-weight: bold;
+        color: rgb(52, 123, 163);
+    }
+    .logo-img{
+        width: 90px;
+    } 
+    .nav-links{
+        font-weight:700;
+        color: rgb(80,80,80);
+        text-decoration: none;
+    }
+    .nav-links:hover{
+        color: rgb(52, 123, 163);
+    }
+    #activeLink{
+        color: rgb(52, 123, 163);
+    }
+    .seePricingContainer{
+        width: 100%;
+    }
+    
+    /* end of navigation */
+
+    /* banner */
+    .bannerContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5px;
+    }
+    .bannergrid:nth-child(1){
+        padding-top: 60px;
+        padding-left: 80px;
+    }
+    .banner-title{
+        color: rgb(52, 123, 163);
+    }
+    .banner-tagline{
+        margin-top:15px;
+        color: rgb(80, 80, 80);
+    }
+    .button-container{
+        margin-top: 60px;
+    }
+    .see-pricing{
+        background-image: linear-gradient(to bottom right, rgb(138, 208, 218), rgb(51, 26, 112));
+        padding: 15px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        font-weight:500;
+    }
+    .see-pricing:hover{
+        color:rgb(52, 123, 163);
+        background-image:none;
+        background-color: white;
+        border:2px solid rgb(52, 123, 163);        
+        font-weight:500;
+    }
+    .bannerimg{
+        width:80%;
+    }
+    /* end of banner */
+    /* footer */
+    .footer{
+        background-image:linear-gradient(to bottom right, rgb(138, 208, 218), rgb(51, 26, 112));
+        width: 100%;
+        height: 400px;
+        padding: 40px;
+    }
+    .footerGridContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .footergrid:nth-child(1) > h5, p{
+        color: rgb(37, 37, 37);
+    }
+    .footerlogo{
+        width: 30%;
+    }
+    .quicklinks{
+        text-decoration: none;
+        color: rgb(37, 37, 37);
+    }
+    .quicklinks:hover{
+        color: white;
+    }
+    .contactUsBtn{
+        background-color: white;
+        border: 1px solid rgb(138, 208, 218);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    /* end of footer */
+}

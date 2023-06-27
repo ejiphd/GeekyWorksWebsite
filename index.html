@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeky Works - Web Development Company</title>
+
+    <link rel="icon" type="image/x-icon" href="Assets/Images/GEEKYWORKS.png">
+    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+     
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-transparent ps-2 pe-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="logo-link">
+                <img src="Assets/Images/GEEKYWORKS.png" alt="" class="logo-img">
+                GeekyWorks
+            </a>
+            <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarContent" aria-controls="navbarContent" >
+            <span class="bi bi-three-dots-vertical"></span>
+            </button>
+            <!-- offcanvas -->
+            <div class="offcanvas offcanvas-end bg-dark w-50" tabindex="-1" id="navbarContent" aria-labelledby="navbarContentLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav w-100 pe-3">
+                        <li class="nav-item ms-lg-auto"><a class="nav-links pe-lg-3 " href="index.html" id="activeLink">Home</a></li>
+                        <li class="dropdown">
+                            <a class="nav-links pe-lg-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Basic</a></li>
+                                <li><a class="dropdown-item" href="#">Standard</a></li>
+                                <li><a class="dropdown-item" href="#">Premium</a></li>
+                              </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="nav-links pe-lg-3 dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Portfolio</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-links pe-lg-3" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-links pe-lg-3" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-links" href="#">Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end of offcanvas -->
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- Banner -->
+    <div class="bannerContainer">
+        <div class="bannergrid">
+            <h2 class="fw-bold banner-title">Making your website work for</h2>
+            <h2 class="fw-bold banner-title"> your business</h2>
+            <p class = "fw-bold banner-tagline">Building efficient, beautiful websites.</p>
+            <div class="button-container">
+                 <a href="#" class="see-pricing"> See Pricing</a>
+            </div>
+           
+        </div>
+        <div class="bannergrid pe-2">
+            <img src="Assets/Images/banner.jpg" alt="" class="bannerimg">
+        </div>
+        
+    </div>
+    <!-- end of banner -->
+   
+    <!-- footer -->
+    <div class="footer">
+        <div class="footerGridContainer">
+            <div class="footergrid p-3">
+                <h5 class="fw-bold">About Us</h5><br>
+                <p>Welcome to Geeky Works! We are a new and innovative website maker company that was established in June 2023. Our primary goal is to transform your theoretical ideas into visually captivating websites, all at an affordable price.</p>
+                
+                <h5 class="fw-bold"><img src="Assets/Images/footerLogo.png" alt="" class="footerlogo">
+                GeekyWorks</h5>
+            </div>
+            <div class="footergrid p-3">
+                <h5 class="fw-bold">Quick Links</h5><br>
+                <ul>
+                    <li><a href="#" class="quicklinks">Themes</a></li>
+                    <li><a href="#" class="quicklinks">Portfolio</a></li>
+                    <li><a href="#" class="quicklinks">Price</a></li>
+                </ul>
+            </div>
+            <div class="footergrid p-3">
+                <h5 class="fw-bold">Contact Us</h5><br>
+                <form action="#">
+                    <input type="text" class="form-control" placeholder="Enter Email"><br>
+                    <button class="contactUsBtn">Enter</button>
+                </form>
+            </div>
+            <div class="footergrid p-3"></div>
+        </div>
+    </div>
+    <!-- end of footer -->
+</body>
+</html>
