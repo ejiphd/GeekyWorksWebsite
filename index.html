@@ -22,13 +22,19 @@
                 <img src="Assets/Images/GEEKYWORKS.png" alt="" class="logo-img">
                 GeekyWorks
             </a>
-            <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarContent" aria-controls="navbarContent" >
-            <span class="bi bi-three-dots-vertical"></span>
+            <button class="navbar-toggler  border-0 ms-auto" id="menubar" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarContent" aria-controls="navbarContent" >
+                <i class=" fas fa-bars"></i>
             </button>
             <!-- offcanvas -->
-            <div class="offcanvas offcanvas-end bg-dark w-50" tabindex="-1" id="navbarContent" aria-labelledby="navbarContentLabel">
+            <div class="offcanvas offcanvas-end bg-light" tabindex="-1" id="navbarContent" aria-labelledby="navbarContentLabel">
                 <div class="offcanvas-header">
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <a class="navbar-brand" href="index.html" id="logo-link">
+                        <img src="Assets/Images/GEEKYWORKS.png" alt="" class="logo-img">
+                        GeekyWorks
+                    </a>
+                    <button type="button" class="closebtn" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="fas fa-close"></i>
+                    </button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav w-100 pe-3">
@@ -75,7 +81,6 @@
         <div class="bannergrid pe-2">
             <img src="Assets/Images/banner.jpg" alt="" class="bannerimg">
         </div>
-        
     </div>
     <!-- end of banner -->
    
@@ -83,7 +88,7 @@
     <div class="footer">
         <div class="footerGridContainer">
             <div class="footergrid p-3">
-                <h5 class="fw-bold text-white">About Us</h5><br>
+                <h5 class="fw-bold text-white">About</h5><br>
                 <p class="text-white">Welcome to Geeky Works! We are a new and innovative website maker company that was established in June 2023. Our primary goal is to transform your theoretical ideas into visually captivating websites, all at an affordable price.</p>
                 
                 <h6 class="fw-bold text-white"><img src="Assets/Images/footerLogo.png" alt="" class="footerlogo">
